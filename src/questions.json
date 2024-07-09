@@ -105,7 +105,7 @@
     {
       "question": "Which variables should go into the useEffect dependency array?",
       "options": [
-        "Usually none",
+        "Usually None",
         "All our state variables",
         "All state and props referenced in the effect",
         "All variables needed for clean up"
