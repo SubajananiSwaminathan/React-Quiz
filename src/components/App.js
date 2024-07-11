@@ -247,7 +247,7 @@ export default function App() {
 
   useEffect(() => {
     // Fetching questions.json directly
-    fetch("data\\questions.json") // Assuming questions.json is in public directory
+    fetch("data/questions.json") // Assuming questions.json is in public directory
       .then((response) => {
         if (!response.ok) {
           throw new Error('Failed to fetch questions.json');
