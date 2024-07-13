@@ -95,7 +95,7 @@ export default function App() {
   );
 
   useEffect(() => {
-    fetch("data/questions.json")
+    fetch("../../data/questions.json")
       .then((response) => response.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((error) => dispatch({ type: "dataFailed" }));
